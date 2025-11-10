@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug boltzmann (lldb)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/host_utils/host_utils",
+      "args": ["${workspaceFolder}/config/config.lua"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "OMP_PROC_BIND": "spread",
+        "OMP_PLACES": "threads",
+        "OMP_STACKSIZE": "512M"
+      },
+      "preLaunchTask": "build"
+    }
+  ]
+}

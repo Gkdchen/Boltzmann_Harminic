@@ -1,0 +1,637 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Release-d181af2f4b0016529c30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/spdlog-src",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "kokkos_build",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7,
+						9,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build-Release-ee9c98f4b70c88b87a58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/kokkos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30
+					]
+				},
+				{
+					"build" : "kokkos_build/core",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.core-Release-62a1d3ba5ca95f1a1f74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/core"
+				},
+				{
+					"build" : "kokkos_build/core/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.core.src-Release-950511e981ee0a9eb829.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/core/src",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "kokkos_build/containers",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.containers-Release-4de9403d10d5c45e0838.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/containers"
+				},
+				{
+					"build" : "kokkos_build/containers/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.containers.src-Release-9c72cf3257eb8aef8d9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/containers/src",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "kokkos_build/algorithms",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.algorithms-Release-6b348415eb7ced674aaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/algorithms"
+				},
+				{
+					"build" : "kokkos_build/algorithms/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.algorithms.src-Release-ae0c61b99cf07b54679a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/algorithms/src"
+				},
+				{
+					"build" : "kokkos_build/simd",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.simd-Release-fff2566842c0131562a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/simd"
+				},
+				{
+					"build" : "kokkos_build/simd/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kokkos_build.simd.src-Release-dd1eb0c311f25317ff84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/simd/src",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "kokkos_build/example",
+					"jsonFile" : "directory-kokkos_build.example-Release-40877a7ec85b59bbedb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/example"
+				},
+				{
+					"build" : "kokkos_build/benchmarks",
+					"jsonFile" : "directory-kokkos_build.benchmarks-Release-7e95d790652fd4c2602b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/kokkos/benchmarks"
+				},
+				{
+					"build" : "cuda_wrap",
+					"jsonFile" : "directory-cuda_wrap-Release-38ca2569110013d9c6fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cuda_wrap",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "host_utils",
+					"jsonFile" : "directory-host_utils-Release-fcf7cc61f50760ac3bf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "host_utils",
+					"targetIndexes" : 
+					[
+						29,
+						35
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						13,
+						14
+					],
+					"name" : "Boltzmann_harmonic3D_cuda",
+					"targetIndexes" : 
+					[
+						29,
+						31,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "Kokkos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30,
+						32,
+						33,
+						34
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "AlwaysCheckGit::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-AlwaysCheckGit-Release-c3625257607737916a7d.json",
+					"name" : "AlwaysCheckGit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-Continuous-Release-049fe39998effa8f0931.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousBuild-Release-069f10bf3b50261c35b0.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousConfigure-Release-321bc63766648d2bb3ea.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousCoverage-Release-725774e5fe7141f5c517.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousMemCheck-Release-dd3d8ef7a34c9ee3dd54.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousStart-Release-9afdbf4638865d061207.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousSubmit-Release-112f34b19230bffbd962.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousTest-Release-40b4a38aca92c564a844.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ContinuousUpdate-Release-c9e79a7fe87ae25fc664.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-Experimental-Release-58dfe02e6e68f343fa3a.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalBuild-Release-2c9c8a26105eca4df5e6.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalConfigure-Release-a5b380e317a54e4235a3.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalCoverage-Release-90344422f8f9ed55b231.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-fd2b78ddacad5c99a0a5.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalStart-Release-9f6c66ef7e14d5eef1a5.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalSubmit-Release-590d803c13009ae929c9.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalTest-Release-58ae0543d1449af9ff9e.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-ExperimentalUpdate-Release-01bddd302066b2ee9480.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-Nightly-Release-d4d407087463aa2d44b9.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyBuild-Release-f02002a12431aa194098.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyConfigure-Release-55064d7a43c74888b599.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyCoverage-Release-c3e7f89719a4bb690eec.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyMemCheck-Release-51b68cd05599da9dc0df.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-d6dec2f5ea1c02fa2799.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyStart-Release-33b22f8c53da724c9b23.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlySubmit-Release-1bb7e6df527c00f02c7c.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyTest-Release-91cb7ecb1be299a8d958.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-NightlyUpdate-Release-fcbf88dcece8e381c5bb.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "host_utils::@5012c1d95000bc05b48f",
+					"jsonFile" : "target-host_utils-Release-a812ac3e63a0d967cd88.json",
+					"name" : "host_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "impl_git_version::@e1cc3cdac5b250c4ce28",
+					"jsonFile" : "target-impl_git_version-Release-dc39c9924589c551610e.json",
+					"name" : "impl_git_version",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "kokkos_cuda_wrap::@6f27ada07caac96dcd80",
+					"jsonFile" : "target-kokkos_cuda_wrap-Release-bd5e0072ae29e3ffce88.json",
+					"name" : "kokkos_cuda_wrap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "kokkoscontainers::@c82b283ddabef78382ed",
+					"jsonFile" : "target-kokkoscontainers-Release-de3283373b21a818c4b7.json",
+					"name" : "kokkoscontainers",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kokkoscore::@d62ebee2692833c20588",
+					"jsonFile" : "target-kokkoscore-Release-de927a98618545b7eb8e.json",
+					"name" : "kokkoscore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "kokkossimd::@c2c3c674d30bb7311842",
+					"jsonFile" : "target-kokkossimd-Release-f75931767219f7a95d6b.json",
+					"name" : "kokkossimd",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "lua_static::@5012c1d95000bc05b48f",
+					"jsonFile" : "target-lua_static-Release-04750f725a0d3a097772.json",
+					"name" : "lua_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Release-32044d9240c577923e1c.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda/build",
+		"source" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

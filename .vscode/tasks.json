@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cmake-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S", "${workspaceFolder}",
+        "-B", "${workspaceFolder}/build",
+        "-DCMAKE_BUILD_TYPE=Debug",
+        "-DKokkos_ENABLE_CUDA=ON",
+        "-DKokkos_ENABLE_SERIAL=ON",
+        "-DKokkos_ARCH_ADA89=ON",
+        "-DKokkos_SKIP_GIT_VERSION=ON",
+        "-DCMAKE_CUDA_ARCHITECTURES=70",
+        "-DCMAKE_CXX_FLAGS=-w"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "-j$(nproc)"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": "cmake-debug",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "run",
+      "type": "shell",
+      "command": "${workspaceFolder}/build/host_utils/host_utils",
+      "args": ["../config/config.lua"],
+      "group": "test",
+      "dependsOn": "build",
+      "problemMatcher": []
+    }
+  ]
+}

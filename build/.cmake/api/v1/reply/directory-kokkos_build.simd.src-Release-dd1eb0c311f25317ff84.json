@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY_INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY",
+			"KOKKOS_ADD_LIBRARY"
+		],
+		"files" : 
+		[
+			"external/kokkos/simd/src/CMakeLists.txt",
+			"external/kokkos/cmake/kokkos_tribits.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 476,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 448,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				{
+					"from" : "external/kokkos/simd/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Kokkos",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"kokkos_build/simd/src/libkokkossimd.a"
+			],
+			"targetId" : "kokkossimd::@c2c3c674d30bb7311842",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"kokkos_build/simd/src/libkokkossimd.a"
+			],
+			"targetId" : "kokkossimd::@c2c3c674d30bb7311842",
+			"targetIndex" : 34,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos_build/simd/src",
+		"source" : "external/kokkos/simd/src"
+	}
+}

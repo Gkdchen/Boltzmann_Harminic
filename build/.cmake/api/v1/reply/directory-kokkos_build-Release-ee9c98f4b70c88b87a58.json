@@ -1,0 +1,168 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INCLUDE",
+			"INSTALL",
+			"KOKKOS_INSTALL_ADDITIONAL_FILES"
+		],
+		"files" : 
+		[
+			"external/kokkos/cmake/kokkos_install.cmake",
+			"external/kokkos/CMakeLists.txt",
+			"external/kokkos/cmake/kokkos_tribits.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 330,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 339,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 307,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Kokkos",
+			"paths" : 
+			[
+				"build/kokkos_build/KokkosConfig.cmake",
+				"build/kokkos_build/KokkosConfigCommon.cmake",
+				"build/kokkos_build/KokkosConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Kokkos",
+			"exportName" : "KokkosTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "CUDA::@e1cc3cdac5b250c4ce28",
+					"index" : 0
+				},
+				{
+					"id" : "LIBDL::@e1cc3cdac5b250c4ce28",
+					"index" : 0
+				},
+				{
+					"id" : "kokkoscore::@d62ebee2692833c20588",
+					"index" : 33
+				},
+				{
+					"id" : "kokkoscontainers::@c82b283ddabef78382ed",
+					"index" : 32
+				},
+				{
+					"id" : "kokkosalgorithms::@e27ae59e1f4739cae013",
+					"index" : 0
+				},
+				{
+					"id" : "kokkossimd::@c2c3c674d30bb7311842",
+					"index" : 34
+				},
+				{
+					"id" : "kokkos::@e1cc3cdac5b250c4ce28",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"kokkos_build/CMakeFiles/Export/7c5c9398a7e290ebb35584c8631204e4/KokkosTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				"build/kokkos_build/KokkosCore_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"external/kokkos/bin/nvcc_wrapper",
+				"external/kokkos/bin/hpcbind",
+				"build/kokkos_build/temp/kokkos_launch_compiler"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				"build/kokkos_build/KokkosCore_config.h",
+				"build/kokkos_build/KokkosCore_Config_FwdBackend.hpp",
+				"build/kokkos_build/KokkosCore_Config_SetupBackend.hpp",
+				"build/kokkos_build/KokkosCore_Config_DeclareBackend.hpp",
+				"build/kokkos_build/KokkosCore_Config_PostInclude.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos_build",
+		"source" : "external/kokkos"
+	}
+}

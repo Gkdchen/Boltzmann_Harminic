@@ -1,0 +1,1747 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "kokkos_build/core/src/libkokkoscore.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"KOKKOS_INTERNAL_ADD_LIBRARY",
+			"KOKKOS_ADD_LIBRARY",
+			"INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY_INSTALL",
+			"TARGET_COMPILE_OPTIONS",
+			"KOKKOS_SET_LIBRARY_PROPERTIES",
+			"TARGET_COMPILE_DEFINITIONS",
+			"INCLUDE_DIRECTORIES",
+			"KOKKOS_INCLUDE_DIRECTORIES",
+			"TARGET_LINK_LIBRARIES",
+			"KOKKOS_LINK_TPL",
+			"TARGET_COMPILE_FEATURES"
+		],
+		"files" : 
+		[
+			"external/kokkos/cmake/kokkos_tribits.cmake",
+			"external/kokkos/core/src/CMakeLists.txt",
+			"external/kokkos/cmake/fake_tribits.cmake",
+			"external/kokkos/cmake/kokkos_functions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 476,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 448,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 354,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 831,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=c++17"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-extended-lambda"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wext-lambda-captures-this"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-arch=sm_89"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "KOKKOS_DEPENDENCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda/build/kokkos_build/core/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda/external/kokkos/core/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda/build/kokkos_build"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/anbo/\u684c\u9762/Boltzmann_harmonic3D_cuda/external/kokkos/core/src/../../tpls/desul/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/usr/local/cuda-12.6/targets/x86_64-linux/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241
+			]
+		}
+	],
+	"id" : "kokkoscore::@d62ebee2692833c20588",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "kokkoscore",
+	"nameOnDisk" : "libkokkoscore.a",
+	"paths" : 
+	{
+		"build" : "kokkos_build/core/src",
+		"source" : "external/kokkos/core/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/KokkosExp_InterOp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/KokkosExp_MDRangePolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Abort.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_AcquireUniqueTokenImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_AnonymousSpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Array.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Assert.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Atomic.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Atomics_Desul_Config.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Atomics_Desul_Volatile_Wrapper.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Atomics_Desul_Wrapper.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_BitManipulation.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Complex.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Concepts.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_CopyViews.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Core.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Core_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Crs.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_DetectionIdiom.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_ExecPolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Extents.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Future.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Graph.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_GraphNode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Graph_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_HBWSpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Half.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_HostSpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Layout.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_LogicalSpaces.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Macros.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MasterLock.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MathematicalConstants.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MathematicalFunctions.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MathematicalSpecialFunctions.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MemoryPool.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MemoryTraits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_MinMaxClamp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_NumericTraits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Pair.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Parallel.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Parallel_Reduce.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_PointerOwnership.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Printf.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Profiling_ProfileSection.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Profiling_ScopedRegion.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Rank.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_ReductionIdentity.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_ScratchSpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_TaskScheduler.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_TaskScheduler_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Timer.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Tuners.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_UniqueToken.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_Vectorization.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_View.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_WorkGraphPolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Kokkos_hwloc.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/KokkosExp_Host_IterateTile.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/KokkosExp_IterateTileGPU.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/KokkosExp_ViewMapping.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_AnalyzePolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Atomic_View.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_BitOps.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_CPUDiscovery.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ChaseLev.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_CheckedIntegerOps.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ClockTic.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Combined_Reducer.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Command_Line_Parsing.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ConcurrentBitset.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Default_GraphNodeKernel.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Default_GraphNode_Impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Default_Graph_Impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Default_Graph_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_DeviceManagement.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_EBO.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Error.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ExecSpaceManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_FixedBufferMemoryPool.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_FunctorAnalysis.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_GraphImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_GraphImpl_Utilities.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_GraphImpl_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_GraphNodeCustomization.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_GraphNodeImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Half_FloatingPointWrapper.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Half_MathematicalFunctions.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Half_NumericTraits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostBarrier.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostSharedPtr.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostSpace_ZeroMemset.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostThreadTeam.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_InitializationSettings.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_LIFO.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_LinkedListNode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_MemoryPoolAllocator.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_MemorySpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_MultipleTaskQueue.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_NvidiaGpuArchitectures.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_OptionalRef.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ParseCommandLineArgumentsAndEnvironmentVariables.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Profiling.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Profiling_DeviceInfo.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Profiling_Interface.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_QuadPrecisionMath.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_SharedAlloc.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_SharedAlloc_timpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_SimpleTaskScheduler.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_SingleTaskQueue.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Spinwait.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Stacktrace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_StringManipulation.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskBase.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskNode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskPolicyData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueue.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueueCommon.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueueMemoryManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueueMultiple.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueueMultiple_impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskQueue_impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskResult.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TaskTeamMember.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_TeamMDPolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Tools.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Tools_Generic.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Traits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Utilities.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_VLAEmulation.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewArray.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewCtor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewLayoutTiled.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewMapping.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewTracker.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ViewUniformType.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ZeroMemset_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_CudaSpace.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_BlockSize_Deduction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Error.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_GraphNodeKernel.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_GraphNode_Impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Graph_Impl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Half_Conversion.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Half_Impl_Type.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_KernelLaunch.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_MDRangePolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel_MDRange.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel_Range.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel_Team.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_ReduceScan.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Task.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Team.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_UniqueToken.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Vectorization.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_View.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_ZeroMemset.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_abort.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_MDRangePolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_Parallel_MDRange.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_Parallel_Range.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_Parallel_Team.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_Task.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_UniqueToken.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_WorkGraphPolicy.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_ZeroMemset.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Adapt_CXX.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Adapt_GCC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Adapt_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Atomic_Ref.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Common.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_CUDA.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_GCC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_HIP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_MSVC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_OpenMP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Compare_Exchange_ScopeCaller.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_CUDA.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_GCC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_Generic.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_HIP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_OpenMP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Fetch_Op_ScopeCaller.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Generic.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Array.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Array_CUDA.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Array_HIP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Array_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Based_Fetch_Op.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Based_Fetch_Op_CUDA.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Based_Fetch_Op_HIP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Based_Fetch_Op_Host.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Based_Fetch_Op_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Lock_Free_Fetch_Op.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Macros.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Operator_Function_Objects.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_CUDA.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_GCC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_HIP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_MSVC.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_OpenMP.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_SYCL.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/Thread_Fence_ScopeCaller.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/cuda/CUDA_asm.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/cuda/CUDA_asm_exchange.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/kokkos/tpls/desul/include/desul/atomics/openmp/OpenMP_40.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Abort.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Command_Line_Parsing.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Core.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Error.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostBarrier.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostSpace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_MemoryPool.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_MemorySpace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Profiling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Spinwait.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_Stacktrace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/impl/Kokkos_hwloc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_CudaSpace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/Cuda/Kokkos_Cuda_Task.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/core/src/Serial/Kokkos_Serial_Task.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/kokkos/tpls/desul/src/Lock_Array_CUDA.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

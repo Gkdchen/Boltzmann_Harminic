@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY_INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY",
+			"KOKKOS_ADD_LIBRARY"
+		],
+		"files" : 
+		[
+			"external/kokkos/core/src/CMakeLists.txt",
+			"external/kokkos/cmake/kokkos_tribits.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 476,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 448,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				{
+					"from" : "external/kokkos/core/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				"external/kokkos/core/src/../../tpls/desul/include/desul",
+				"build/kokkos_build/core/src/desul"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Kokkos",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"kokkos_build/core/src/libkokkoscore.a"
+			],
+			"targetId" : "kokkoscore::@d62ebee2692833c20588",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"kokkos_build/core/src/libkokkoscore.a"
+			],
+			"targetId" : "kokkoscore::@d62ebee2692833c20588",
+			"targetIndex" : 33,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos_build/core/src",
+		"source" : "external/kokkos/core/src"
+	}
+}

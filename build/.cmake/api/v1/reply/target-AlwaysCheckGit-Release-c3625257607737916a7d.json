@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"check_git_setup"
+		],
+		"files" : 
+		[
+			"external/kokkos/cmake/build_env_info.cmake",
+			"external/kokkos/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "AlwaysCheckGit::@e1cc3cdac5b250c4ce28",
+	"name" : "AlwaysCheckGit",
+	"paths" : 
+	{
+		"build" : "kokkos_build",
+		"source" : "external/kokkos"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/kokkos_build/CMakeFiles/AlwaysCheckGit",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/kokkos_build/CMakeFiles/AlwaysCheckGit.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
